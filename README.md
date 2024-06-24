@@ -4,9 +4,10 @@
 
 #Features
 - Fetch data of AQI by using the lat/lon of your current location.
-- Also have the option to search by city name
-- Friendly name and brief explanation of AQI result
-- Color coded for better user contextualization of AQI data
+- Also have the option to search by city name.
+- Friendly name and brief explanation of AQI result.
+- Color coded for better user contextualization of AQI data.
+- Horizontally swipable cards to see yesterday, today, and tomorrow's AQI data.
 
 # Improvements/Enhancement ideas
 

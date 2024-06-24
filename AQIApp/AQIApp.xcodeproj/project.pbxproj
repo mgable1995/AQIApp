@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72422EB02C28751900586866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422EAF2C28751900586866 /* AppDelegate.swift */; };
+		72422EB22C28751900586866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422EB12C28751900586866 /* SceneDelegate.swift */; };
+		72422EB42C28751900586866 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422EB32C28751900586866 /* HomeViewController.swift */; };
+		72422EB92C28751C00586866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72422EB82C28751C00586866 /* Assets.xcassets */; };
+		72422EBC2C28751C00586866 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 72422EBB2C28751C00586866 /* Base */; };
+		72422EC42C2876DA00586866 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422EC32C2876DA00586866 /* NetworkManager.swift */; };
+		72422EC72C287E3700586866 /* AQICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422EC62C287E3700586866 /* AQICollectionViewCell.swift */; };
+		72422ECB2C28A24600586866 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422ECA2C28A24600586866 /* HomeViewModel.swift */; };
+		72422ECF2C28A70B00586866 /* AQIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422ECE2C28A70B00586866 /* AQIModel.swift */; };
+		72422ED22C28A86000586866 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422ED12C28A86000586866 /* Colors.swift */; };
+		72422ED42C29EA0300586866 /* HomeViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422ED32C29EA0300586866 /* HomeViewController+UICollectionView.swift */; };
+		72422ED62C29EA4900586866 /* HomeViewController+CLLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422ED52C29EA4900586866 /* HomeViewController+CLLocationManager.swift */; };
+		72422ED82C29EAD600586866 /* HomeViewController+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422ED72C29EAD600586866 /* HomeViewController+ViewModel.swift */; };
+		72422EE02C2A086C00586866 /* AQIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72422EDF2C2A086C00586866 /* AQIAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72422EE12C2A086C00586866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72422EA42C28751900586866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72422EAB2C28751900586866;
+			remoteInfo = AQIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72422EAC2C28751900586866 /* AQIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72422EAF2C28751900586866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72422EB12C28751900586866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72422EB32C28751900586866 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		72422EB82C28751C00586866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72422EBB2C28751C00586866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72422EBD2C28751C00586866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72422EC32C2876DA00586866 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		72422EC62C287E3700586866 /* AQICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQICollectionViewCell.swift; sourceTree = "<group>"; };
+		72422ECA2C28A24600586866 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		72422ECE2C28A70B00586866 /* AQIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIModel.swift; sourceTree = "<group>"; };
+		72422ED12C28A86000586866 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		72422ED32C29EA0300586866 /* HomeViewController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UICollectionView.swift"; sourceTree = "<group>"; };
+		72422ED52C29EA4900586866 /* HomeViewController+CLLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+CLLocationManager.swift"; sourceTree = "<group>"; };
+		72422ED72C29EAD600586866 /* HomeViewController+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+ViewModel.swift"; sourceTree = "<group>"; };
+		72422EDD2C2A086C00586866 /* AQIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72422EDF2C2A086C00586866 /* AQIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72422EA92C28751900586866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72422EDA2C2A086C00586866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72422EA32C28751900586866 = {
+			isa = PBXGroup;
+			children = (
+				72422EAE2C28751900586866 /* AQIApp */,
+				72422EDE2C2A086C00586866 /* AQIAppTests */,
+				72422EAD2C28751900586866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72422EAD2C28751900586866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72422EAC2C28751900586866 /* AQIApp.app */,
+				72422EDD2C2A086C00586866 /* AQIAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72422EAE2C28751900586866 /* AQIApp */ = {
+			isa = PBXGroup;
+			children = (
+				72422ED02C28A85500586866 /* Utility */,
+				72422ECD2C28A60E00586866 /* Network */,
+				72422ECC2C28A60600586866 /* Model */,
+				72422EC92C28A23700586866 /* ViewController */,
+				72422EC82C28A23100586866 /* ViewModel */,
+				72422EC52C287E2400586866 /* Views */,
+				72422EAF2C28751900586866 /* AppDelegate.swift */,
+				72422EB12C28751900586866 /* SceneDelegate.swift */,
+				72422EB82C28751C00586866 /* Assets.xcassets */,
+				72422EBA2C28751C00586866 /* LaunchScreen.storyboard */,
+				72422EBD2C28751C00586866 /* Info.plist */,
+			);
+			path = AQIApp;
+			sourceTree = "<group>";
+		};
+		72422EC52C287E2400586866 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72422EC62C287E3700586866 /* AQICollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72422EC82C28A23100586866 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				72422ECA2C28A24600586866 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		72422EC92C28A23700586866 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				72422EB32C28751900586866 /* HomeViewController.swift */,
+				72422ED32C29EA0300586866 /* HomeViewController+UICollectionView.swift */,
+				72422ED52C29EA4900586866 /* HomeViewController+CLLocationManager.swift */,
+				72422ED72C29EAD600586866 /* HomeViewController+ViewModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		72422ECC2C28A60600586866 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72422ECE2C28A70B00586866 /* AQIModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72422ECD2C28A60E00586866 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				72422EC32C2876DA00586866 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		72422ED02C28A85500586866 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				72422ED12C28A86000586866 /* Colors.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		72422EDE2C2A086C00586866 /* AQIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				72422EDF2C2A086C00586866 /* AQIAppTests.swift */,
+			);
+			path = AQIAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72422EAB2C28751900586866 /* AQIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72422EC02C28751C00586866 /* Build configuration list for PBXNativeTarget "AQIApp" */;
+			buildPhases = (
+				72422EA82C28751900586866 /* Sources */,
+				72422EA92C28751900586866 /* Frameworks */,
+				72422EAA2C28751900586866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AQIApp;
+			productName = AQIApp;
+			productReference = 72422EAC2C28751900586866 /* AQIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72422EDC2C2A086C00586866 /* AQIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72422EE32C2A086C00586866 /* Build configuration list for PBXNativeTarget "AQIAppTests" */;
+			buildPhases = (
+				72422ED92C2A086C00586866 /* Sources */,
+				72422EDA2C2A086C00586866 /* Frameworks */,
+				72422EDB2C2A086C00586866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72422EE22C2A086C00586866 /* PBXTargetDependency */,
+			);
+			name = AQIAppTests;
+			productName = AQIAppTests;
+			productReference = 72422EDD2C2A086C00586866 /* AQIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72422EA42C28751900586866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					72422EAB2C28751900586866 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					72422EDC2C2A086C00586866 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 72422EAB2C28751900586866;
+					};
+				};
+			};
+			buildConfigurationList = 72422EA72C28751900586866 /* Build configuration list for PBXProject "AQIApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72422EA32C28751900586866;
+			productRefGroup = 72422EAD2C28751900586866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72422EAB2C28751900586866 /* AQIApp */,
+				72422EDC2C2A086C00586866 /* AQIAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72422EAA2C28751900586866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72422EB92C28751C00586866 /* Assets.xcassets in Resources */,
+				72422EBC2C28751C00586866 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72422EDB2C2A086C00586866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72422EA82C28751900586866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72422EC42C2876DA00586866 /* NetworkManager.swift in Sources */,
+				72422ED82C29EAD600586866 /* HomeViewController+ViewModel.swift in Sources */,
+				72422ED62C29EA4900586866 /* HomeViewController+CLLocationManager.swift in Sources */,
+				72422ED42C29EA0300586866 /* HomeViewController+UICollectionView.swift in Sources */,
+				72422ED22C28A86000586866 /* Colors.swift in Sources */,
+				72422ECB2C28A24600586866 /* HomeViewModel.swift in Sources */,
+				72422ECF2C28A70B00586866 /* AQIModel.swift in Sources */,
+				72422EB42C28751900586866 /* HomeViewController.swift in Sources */,
+				72422EC72C287E3700586866 /* AQICollectionViewCell.swift in Sources */,
+				72422EB02C28751900586866 /* AppDelegate.swift in Sources */,
+				72422EB22C28751900586866 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72422ED92C2A086C00586866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72422EE02C2A086C00586866 /* AQIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72422EE22C2A086C00586866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72422EAB2C28751900586866 /* AQIApp */;
+			targetProxy = 72422EE12C2A086C00586866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72422EBA2C28751C00586866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72422EBB2C28751C00586866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72422EBE2C28751C00586866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72422EBF2C28751C00586866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72422EC12C28751C00586866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q257J2AF5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AQIApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location tracking to get accurate Air Quality information";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGStudios.AQIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		72422EC22C28751C00586866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q257J2AF5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AQIApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location tracking to get accurate Air Quality information";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGStudios.AQIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		72422EE42C2A086C00586866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q257J2AF5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGStudios.AQIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AQIApp";
+			};
+			name = Debug;
+		};
+		72422EE52C2A086C00586866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q257J2AF5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGStudios.AQIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AQIApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72422EA72C28751900586866 /* Build configuration list for PBXProject "AQIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72422EBE2C28751C00586866 /* Debug */,
+				72422EBF2C28751C00586866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72422EC02C28751C00586866 /* Build configuration list for PBXNativeTarget "AQIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72422EC12C28751C00586866 /* Debug */,
+				72422EC22C28751C00586866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72422EE32C2A086C00586866 /* Build configuration list for PBXNativeTarget "AQIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72422EE42C2A086C00586866 /* Debug */,
+				72422EE52C2A086C00586866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72422EA42C28751900586866 /* Project object */;
+}

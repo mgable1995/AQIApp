@@ -1,6 +1,14 @@
-# AQIApp
+# AQI App
+<img width="469" alt="Screenshot 2024-06-24 at 4 37 42 PM" src="https://github.com/mgable1995/AQIApp/assets/24579819/e1c07e72-b1b3-44ac-b722-61b110f570f1">
+<img width="469" alt="Screenshot 2024-06-24 at 4 38 00 PM" src="https://github.com/mgable1995/AQIApp/assets/24579819/9cc3ad6f-7b4b-4318-ba7e-9a6711d53e5e">
 
-Note of some things I could have improved upon, or future enhancement ideas.
+#Features
+- Fetch data of AQI by using the lat/lon of your current location.
+- Also have the option to search by city name
+- Friendly name and brief explanation of AQI result
+- Color coded for better user contextualization of AQI data
+
+# Improvements/Enhancement ideas
 
 - Unit tests are very basic, I could have spent some more time to improve upon them.
 - API key is simply a variable in the network manager, which would obviously not fly in a real world example. Considered putting into keychain to show secure storage, but even then we should not store API keys in this manner.

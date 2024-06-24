@@ -8,6 +8,7 @@
 - Friendly name and brief explanation of AQI result.
 - Color coded for better user contextualization of AQI data.
 - Horizontally swipable cards to see yesterday, today, and tomorrow's AQI data.
+- Added some (very basic) unit tests to ensure core functionality remains in good shape with future changes.
 
 # Improvements/Enhancement ideas
 

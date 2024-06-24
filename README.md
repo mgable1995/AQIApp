@@ -2,7 +2,7 @@
 <img width="469" alt="Screenshot 2024-06-24 at 4 37 42 PM" src="https://github.com/mgable1995/AQIApp/assets/24579819/e1c07e72-b1b3-44ac-b722-61b110f570f1">
 <img width="469" alt="Screenshot 2024-06-24 at 4 38 00 PM" src="https://github.com/mgable1995/AQIApp/assets/24579819/9cc3ad6f-7b4b-4318-ba7e-9a6711d53e5e">
 
-#Features
+# Features
 - Fetch data of AQI by using the lat/lon of your current location.
 - Also have the option to search by city name.
 - Friendly name and brief explanation of AQI result.
